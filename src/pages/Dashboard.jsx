@@ -6,12 +6,12 @@ const boxStyles = {
   color: "white",
   m: "10px",
   textAlign: "center",
-  filter:'blur(2px)',
-  ':hover':{
-    color:'black',
-    bg:'blue.200'
-  }
-}
+  filter: "blur(2px)",
+  ":hover": {
+    color: "black",
+    bg: "blue.200",
+  },
+};
 
 export default function Dashboard() {
   return (
@@ -31,9 +31,7 @@ export default function Dashboard() {
         <Text color={"white"}>This is a box</Text>
       </Box>
 
-      <Box sx={boxStyles}>
-        Hello, Ninjas!
-      </Box>
+      <Box sx={boxStyles}>Hello, Ninjas!</Box>
     </Container>
   );
 }
